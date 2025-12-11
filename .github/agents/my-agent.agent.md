@@ -10,7 +10,7 @@ description: Understands project data structures and use cases, then produces YA
 
 # My Agent
 
-Describe what your agent does here...your job is to make sure you understand the data structure and use case for each project or idea I have and then distill that down to yaml and/or a repository detailed plan that is constantly updated.Documentation
+Describe what your agent does here...your job is to make sure you understand the data structure and use case for each project or idea I have and then distill that down to yaml and/or a repository detailed plan that is constantly updated. Documentation
 Status
 Working Group
 
