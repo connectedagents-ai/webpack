@@ -33,6 +33,7 @@
 
 - [Install](#install)
 - [Introduction](#introduction)
+- [Learning the repository](#learning-the-repository)
 - [Concepts](#concepts)
 - [Contributing](#contributing)
 - [Support](#support)
@@ -88,6 +89,16 @@ Check out webpack's quick [**Get Started**](https://webpack.js.org/guides/gettin
 
 Webpack supports all browsers that are [ES5-compliant](https://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
 Webpack also needs `Promise` for `import()` and `require.ensure()`. If you want to support older browsers, you will need to [load a polyfill](https://webpack.js.org/guides/shimming/) before using these expressions.
+
+## Learning the repository
+
+Need a fast orientation to this codebase?
+
+- **Setup**: run `yarn setup` (or `npm run setup`) to install and link dependencies (see [\_SETUP.md](/_SETUP.md)).
+- **Key commands**: `yarn test`, `yarn test:unit`, `yarn test:integration`, `yarn lint`, and `yarn fmt` (see [TESTING_DOCS.md](./TESTING_DOCS.md) for details).
+- **Repo layout**: `lib/` contains the bundler core and built-in plugins, `bin/webpack.js` is the CLI entry, `schemas/` holds configuration validation, `test/` contains Jest suites plus fixture cases, `examples/` showcases common setups, and `types.d.ts` plus `declarations/` host the TypeScript typings.
+- **Quick checks**: you can exercise a single test via `yarn test:unit --runTestsByPath test/ArrayHelpers.unittest.js`.
+- **Learn webpack**: start with the [guides](https://webpack.js.org/guides/), [concepts](https://webpack.js.org/concepts/), and [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution flow.
 
 ## Concepts
 
